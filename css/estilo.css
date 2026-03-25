@@ -1,9 +1,41 @@
+/* reset css */
+* {
+    /* margem */
+    margin: 0;
+}
+
+
 /* Fundo */
 body {
-    background-color:   
-    
-    #000;
+    background-color:
+
+        #610505;
 
     /* Texto */
     color: #fff;
 }
+
+/* Seletor para os <A>*/
+a {
+    /* Propiedade e valor */
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Header */
+
+header {
+    /* ROW */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #940d0d;
+
+    /* largura ou comprimento */
+    width: 100%;
+    
+
+}
+
+
