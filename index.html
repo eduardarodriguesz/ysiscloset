@@ -7,10 +7,10 @@
     <title>Ysis Closet</title>
 
     <!-- Bootstrap Icon -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
-     <!-- css -->
-      <link rel="stylesheet" href="css/estilo.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilo.css">
 
 </head>
 
@@ -18,34 +18,33 @@
     <!-- cabeçalho -->
     <header>
         <!-- logo -->
-        <div>
-            <a href="http://sanrio.com.br">
-                meu logo
+        <div class="header-logo">
+            <a href="#home">
+                YC
             </a>
         </div>
 
         <!-- menu desktop/pc -->
-        <nav>
-            <ul>
+        <nav class="menu-desktop">
+            <ul class="menu">
                 <li>
-                    <a href="">
-                        
-                        <span> Home </span>
+                    <a href="#home" class="menu-link active">
+                        <span class="menu-texto"> Home </span>
                     </a>
                 <li>
                 </li>
-                <a href="">
-                    <span> Produtos </span>
+                <a href="#produtos" class="menu-link">
+                    <span class="menu-texto"> Produtos </span>
                 </a>
                 </li>
                 <li>
-                    <a href="">
-                        <span> Contato </span>
+                    <a href="#contato" class="menu-link">
+                        <span class="menu-texto"> Contato </span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <span> Sobre Nos </span>
+                    <a href="#sobre nos" class="menu-link">
+                        <span class="menu-texto"> Sobre Nos </span>
                     </a>
                 </li>
             </ul>
@@ -53,14 +52,14 @@
 
         <!-- Icone Trocar Cor Tema -->
 
-        <div>
-            <i class="bi bi-brightness-high"></i>
+        <div class="header-toggle">
+            <i class="bi bi-brightness-high" id="toggleTheme"> </i>
 
             <!-- Botao Hamburguer -->
-             <button>
+            <button class="btn-menu-mobile" id="menuHamburguer">
                 <i class="bi bi-list"></i>
-             </button>
-             
+            </button>
+
         </div>
 
 

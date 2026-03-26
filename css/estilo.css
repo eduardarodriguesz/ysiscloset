@@ -2,6 +2,7 @@
 * {
     /* margem */
     margin: 0;
+    box-sizing: border-box;
 }
 
 
@@ -18,7 +19,7 @@ body {
 /* Seletor para os <A>*/
 a {
     /* Propiedade e valor */
-    text-decoration: none;
+    text-decoration: none;     
     color: #fff;
 }
 
@@ -34,8 +35,4 @@ header {
 
     /* largura ou comprimento */
     width: 100%;
-    
-
 }
-
-
