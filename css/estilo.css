@@ -36,3 +36,14 @@ header {
     /* largura ou comprimento */
     width: 100%;
 }
+
+/* UL */
+.menu {
+    /* excluir sistema de lista */
+    list-style: none;
+    /* ESPAÇO */
+    display: flex;
+    /* espaço entre tags */
+    gap: 1rem;
+}
+
