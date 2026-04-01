@@ -10,17 +10,17 @@
 body {
     background-color:
 
-        #610505;
+        #8b0808;
 
     /* Texto */
-    color: #fff;
+    color: #000;
 }
 
 /* Seletor para os <A>*/
 a {
     /* Propiedade e valor */
     text-decoration: none;     
-    color: #fff;
+    color: #000;
 }
 
 
@@ -31,7 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #940d0d;
+    background-color: #ffffff;
 
     /* largura ou comprimento */
     width: 100%;
@@ -40,7 +40,6 @@ header {
 /* UL */
 .menu {
     /* excluir sistema de lista */
-    list-style: none;
     /* ESPAÇO */
     display: flex;
     /* espaço entre tags */
@@ -50,6 +49,11 @@ header {
 /* Tag nav */
 .menu-desktop {
     display: none;
+}
+
+/* Logo */
+.logo {
+    width: 7rem;
 }
 
 /*Daq pra frente versao mobile */
